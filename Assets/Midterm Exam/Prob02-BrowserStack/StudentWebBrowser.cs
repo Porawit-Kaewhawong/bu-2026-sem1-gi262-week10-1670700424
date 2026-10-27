@@ -71,7 +71,7 @@ namespace MidtermExam.Prob02
         {
             // TODO: คืนค่าหน้าที่ติดตามอยู่ใน currentUrl แทนคำสั่ง throw ด้านล่าง
             // เมธอดนี้ใช้เพื่ออ่านสถานะเท่านั้น จึงไม่ต้อง Push(), Pop() หรือ Clear() ประวัติ
-            if (currentUrl != null)
+            if (currentUrl != string.Empty)
             {
                 return currentUrl;
             }
